@@ -1,6 +1,8 @@
-console.log("Mensaje de prueba")
-let nombre = prompt("Ingresá tu nombre");
-let apellido = prompt("Ingresá tu apellido");
-let genero = prompt("Ingresá tu genero");
+let edad = parseInt(prompt ("Ingrese su edad")) 
 
-alert(`Hola ${nombre} ${apellido}, sos ${genero} !!`)
+if (edad >= 18){
+    console.log ("Mayor de edad")
+} else{
+    console.log ("Menor de edad")
+}
+
